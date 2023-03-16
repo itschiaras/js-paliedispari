@@ -16,18 +16,30 @@
 
 <body>
     <div class="container d-flex flex-column align-items-center">
-        <div class="mb-5 mt-5">
+        <div class="mb-5 mt-5 w-50">
             <h1>Palindrome Test</h1>
             <h2>Inserisci una parola per scoprire se è palindroma </h2>
             <input type="text" id="userWord">
             <button id="submitBtn">Invia</button>
             <h3 class="mt-2"></h3>
         </div>
+        <div class="w-50">
+            <h1>Pari e Dispari</h1>
+            <h2>Scegli tra pari e dispari e inserisici un numero da 1 a 5</h2>
+            <select name="scelta" id="scelta">
+                <option value="even">Pari</option>
+                <option value="odd">Dispari</option>
+            </select>
+            <input type="number" min="1" max="5" id="numero">
+            <button id="gioca">Gioca</button>
+            <h3 id="risultato" class="mt-2"></h3>
+        </div>
         
     </div>
 
 
     <script src="./js/script.js"></script>
+    <script src="./js/script2.js"></script>
 </body>
 
 </html>
